@@ -27,13 +27,24 @@
 		}
 	},
 	"lint-staged": {
-		"**/*.{js,css,md}": [ "npm run format-one", "git add" ]
+		"**/*.{js,css,md}": [
+			"npm run format-one",
+			"git add"
+		]
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/video-react/video-react.git"
 	},
-	"files": [ "LICENSE", "README.md", "CHANGELOG.md", "lib", "dist", "styles", "tonic-example.js" ],
+	"files": [
+		"LICENSE",
+		"README.md",
+		"CHANGELOG.md",
+		"lib",
+		"dist",
+		"styles",
+		"tonic-example.js"
+	],
 	"keywords": [
 		"react",
 		"video",
